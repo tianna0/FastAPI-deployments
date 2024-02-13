@@ -1,4 +1,4 @@
-# FastAPI
+# FastAPI🚀
 # Overview
 This program is a Python-based API developed using FastAPI, designed to interact with an in-memory database. The API provides a simple interface to create, retrieve, list, and delete data represented as a chosen data model.
 
@@ -14,12 +14,12 @@ To get started with this API, you should set up a virtual environment and instal
 
 # Set Up Virtual Environment
 Install pipenv if you haven't already.
-Navigate to the project's root directory and run pipenv install to create a virtual environment and install dependencies.
+Navigate to the project's root directory and run ```pipenv install``` to create a virtual environment and install dependencies.
 
 # Running the API
 Activate the virtual environment with ```pipenv shell```.
-Start the FastAPI server with hypercorn main:app --reload.
+Start the FastAPI server with ```hypercorn main:app --reload```.
 
 # Running Tests
 To ensure that the API is functioning correctly, run the tests using the following command:
-pytest
+```pytest```

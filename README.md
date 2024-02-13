@@ -17,7 +17,7 @@ Install pipenv if you haven't already.
 Navigate to the project's root directory and run pipenv install to create a virtual environment and install dependencies.
 
 # Running the API
-Activate the virtual environment with pipenv shell.
+Activate the virtual environment with ```pipenv shell```.
 Start the FastAPI server with hypercorn main:app --reload.
 
 # Running Tests
